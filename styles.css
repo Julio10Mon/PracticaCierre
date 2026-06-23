@@ -1,4 +1,14 @@
+:root {
+  --color-primario: #1f3864;
+  --color-acento: #2e75b6;
+  --color-fondo: #f2f4f8;
+  --color-texto: #333333;
+  --fuente-base: 'Segoe UI', sans-serif;
+  --radio-borde: 8px;
+  --sombra: 0 4px 12px rgba(0,0,0,0.1);
+}
 /* Estilos iniciales del Portal del Equipo 5 */
+
 body {
     margin: 0;
     padding: 0;
