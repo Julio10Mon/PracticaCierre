@@ -92,3 +92,38 @@ footer {
     gap: 8px; 
   }
 }
+
+/* Transición base en tarjetas */
+.proyecto-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Botón con transición de color */
+.btn-ver {
+  background-color: var(--color-acento);
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.btn-ver:hover {
+  background-color: var(--color-primario);
+  transform: scale(1.05);
+}
+
+/* Estilos para el formulario de contacto */
+#form-contacto input,
+#form-contacto textarea {
+  border: 2px solid #ccc;
+  border-radius: var(--radio-borde);
+  transition: border-color 0.2s ease;
+}
+
+#form-contacto input:focus,
+#form-contacto textarea:focus {
+  border-color: var(--color-acento);
+  outline: none;
+}
