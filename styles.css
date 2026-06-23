@@ -68,3 +68,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Tablet — máx. 768px */
+@media (max-width: 768px) {
+  .team-cards {
+    grid-template-columns: 1fr 1fr; /* 2 columnas en tablet */
+  }
+  .proyecto-card {
+    flex-direction: column;
+  }
+}
+
+/* Móvil — máx. 480px */
+@media (max-width: 480px) {
+  .team-cards {
+    grid-template-columns: 1fr; /* 1 columna en móvil */
+  }
+  header h1 { 
+    font-size: 1.5rem; 
+  }
+  nav { 
+    flex-direction: column; 
+    gap: 8px; 
+  }
+}
